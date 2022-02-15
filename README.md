@@ -47,3 +47,4 @@ For further analysis, we combined both the datasets into one to find out the nam
 
 From this data, we wrote two functions to get temprature and precipitation from last year to Calculate the rainfall per weather station and temperature for our trip dates using the previous year's matching dates.
 
+![alt_text](https://github.com/RGK73/surfs_up/blob/main/Images/querries.png)
