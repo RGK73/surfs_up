@@ -1,36 +1,26 @@
 # surfs_up
 A project based on SQLite, SQLAlchemy, and Flask to build on our knowledge of SQL database structures and querying methods. Python code in a Jupyter notebook and create graphs using Python.
-Background
-We are doing weather analysis to determine if the surf and ice cream shop business is sustainable year-round on the islands of Hawaii.
 
-Deliverable 1: Determine the Summary Statistics for June
-Deliverable 2: Determine the Summary Statistics for December
-Deliverable 3: A written report for the statistical analysis (README.md)
+## Background
+We are doing weather analysis to determine if the surf and ice cream shop business is sustainable year-round on the islands of Hawaii.For that we have to analyze and determine the Summary Statistics for June and also for December and write a report for the statistical analysis.
 
-Deliverable 1: Determine the Summary Statistics for June (40 points)
-Deliverable 1 Instructions
-Using Python, Pandas functions and methods, and SQLAlchemy, you’ll filter the date column of the Measurements table in the hawaii.sqlite database to retrieve all the temperatures for the month of June. You’ll then convert those temperatures to a list, create a DataFrame from the list, and generate the summary statistics.
+### Determine the Summary Statistics for June :
 
-In Step 1, write a query that filters the date column from the Measurement table to retrieve all the temperatures for the month of June.
-In Step 2, convert the June temperatures to a list.
-In Step 3, create a DataFrame from the list of temperatures for the month of June.
-In Step 4, generate the summary statistics for the June temperatures DataFrame.
+Using Python, Pandas functions and methods, and SQLAlchemy, we filtered the date column of the Measurements table in the hawaii.sqlite database to retrieve all the temperatures for the month of June. Then converted those temperatures to a list, created a DataFrame from the list, and generated the summary statistics.For this we wrote a query that filters the date column from the Measurement table to retrieve all the temperatures for the month of June.Then converted the June temperatures to a list.Created a DataFrame from the list of temperatures for the month of June.And then generated the summary statistics for the June temperatures DataFrame as shown below: 
 
-The summary statistics for the June temperatures DataFrame
+- The summary statistics for the June temperatures DataFrame
 
-Deliverable 2: Determine the Summary Statistics for December (40 points)
-Deliverable 2 Instructions
-Using Python, Pandas functions and methods, and SQLAlchemy, you’ll filter the date column of the Measurements table in the hawaii.sqlite database to retrieve all the temperatures for the month of December. You’ll then convert those temperatures to a list, create a DataFrame from the list, and generate the summary statistics.
+![alt_text]()
 
-In Step 6, write a query that filters the date column from the Measurement table to retrieve all the temperatures for the month of December.
-In Step 7, convert the December temperatures to a list.
-In Step 8, create a DataFrame from the list of temperatures for the month of December.
-In Step 9, generate the summary statistics for the December temperatures DataFrame.
+### Determine the Summary Statistics for December :
+
+Using Python, Pandas functions and methods, and SQLAlchemy, we filtered the date column of the Measurements table in the hawaii.sqlite database to retrieve all the temperatures for the month of December,then converted those temperatures to a list,created a DataFrame from the list, and generated the summary statistics.For that, we wrote a query that filters the date column from the Measurement table to retrieve all the temperatures for the month of December.Then converted the December temperatures to a list.Created a DataFrame from the list of temperatures for the month of December. In the end,generated the summary statistics for the December temperatures DataFrame as below :
 
 The summary statistics for the December temperatures DataFrame
 
-Deliverable 3 Instructions
-For this part of the Challenge, write a report that describes the key differences in weather between June and December and two recommendations for further analysis.
+![alt_text]()
+
+The key differences in weather between June and December and two recommendations for further analysis.
 
 The analysis should contain the following:
 
