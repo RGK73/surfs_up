@@ -8,9 +8,11 @@ We are doing weather analysis to determine if the surf and ice cream shop busine
 
 Using Python, Pandas functions and methods, and SQLAlchemy, we filtered the date column of the Measurements table in the hawaii.sqlite database to retrieve all the temperatures for the month of June. Then converted those temperatures to a list, created a DataFrame from the list, and generated the summary statistics.For this we wrote a query that filters the date column from the Measurement table to retrieve all the temperatures for the month of June.Then converted the June temperatures to a list.Created a DataFrame from the list of temperatures for the month of June.And then generated the summary statistics for the June temperatures DataFrame as shown below: 
 
-- The summary statistics for the June temperatures DataFrame
+- The summary statistics for the June temperatures :
 
-![alt_text]()
+![alt_text](https://github.com/RGK73/surfs_up/blob/main/Images/june_temp_analysis.png)
+
+![alt_text](https://github.com/RGK73/surfs_up/blob/main/Images/june_temp_plot.png)
 
 ### Determine the Summary Statistics for December :
 
@@ -18,33 +20,30 @@ Using Python, Pandas functions and methods, and SQLAlchemy, we filtered the date
 
 The summary statistics for the December temperatures DataFrame
 
-![alt_text]()
+![alt_text](https://github.com/RGK73/surfs_up/blob/main/Images/december_temp_analysis.png)
+
+![alt_text](https://github.com/RGK73/surfs_up/blob/main/Images/december_temp_plot.png)
 
 The key differences in weather between June and December and two recommendations for further analysis.
+- We see that on average the recorded temperature was higher in June than December.
+- We also find there is a larger spread in the December data as shown by its increased standard deviation, indicating there are likley some December days with temperatures reaching those of June. This is also confirmed by the roughly equal maximum temperatures for each month.
 
-The analysis should contain the following:
+- The summary statistics for the June and December Precipitation Analysis :
+Considering additional weather data, we can compare levels of precipitation between the two months using the query:and similarly for December. Doing so shows there are increased levels of precipitation in December, but again with greater variation in the measured data.
+ 
+![alt_text](https://github.com/RGK73/surfs_up/blob/main/Images/june_prcp_analysis.png)
 
-Overview of the analysis: Explain the purpose of this analysis.
-Results: Provide a bulleted list with three major points from the two analysis deliverables. Use images as support where needed.
-Summary: Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
-Deliverable 3 Requirements
-Structure, Organization, and Formatting (6 points)
-The written analysis has the following structure, organization, and formatting:
+![alt_text](https://github.com/RGK73/surfs_up/blob/main/Images/june_prcp_plot.png)
 
-There is a title, and there are multiple sections. (2 pt)
-Each section has a heading and subheading. (2 pt)
-Links to images are working and displayed correctly. (2 pt)
-Analysis (14 points)
-The written analysis has the following:
+![alt_text](https://github.com/RGK73/surfs_up/blob/main/Images/december_prcp_analysis.png)
 
-Overview of the statistical analysis:
+![alt_text](https://github.com/RGK73/surfs_up/blob/main/Images/december_prcp_plot.png)
 
-The purpose of the analysis is well defined. (3 pt)
-Results:
+From the above graphs we can say that with good temperatures and less precipitation, June is a good month for the business on the island of Oahu.
 
-There is a bulleted list that addresses the three key differences in weather between June and December. (6 pt)
-Summary:
+For further analysis, we combined both the datasets into one to find out the name of the islands with weather stations. The combines table looks like below: 
 
-There is a high-level summary of the results and there are two additional queries to perform to gather more weather data for June and December. (5 pt)
-Submission
-Once you’re ready to submit, make sure to check your work against the rubric to ensure you are meeting the requirements for this Challenge one final time. It’s easy to overlook items when you’re in the zone!
+![alt_text](https://github.com/RGK73/surfs_up/blob/main/Images/measurement_station.png)
+
+From this data, we wrote two functions to get temprature and precipitation from last year to Calculate the rainfall per weather station and temperature for our trip dates using the previous year's matching dates.
+
